@@ -12,10 +12,10 @@ first Udacity full-stack nanodegree project
 1- The image must be in the "assets/images/original" folder.
 2- You can either retreive the image without resizing by passing the filename query parameter only in the url
 example:
-http://localhost:3000/api/resize?name=santamonica
+http://localhost:3000/api/resize?filename=santamonica
 Or by passing the filename along with the wanted width and height
 example:
-http://localhost:3000/api/resize?name=santamonica&width=300&height=150
+http://localhost:3000/api/resize?filename=santamonica&width=300&height=150
 
 3-The image is shown if found no errors in the parameters.
 
